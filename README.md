@@ -1,52 +1,89 @@
 # Copilot Studio Credits Monitor
 
-Static, read-only SPA for GitHub Pages that reports Microsoft Copilot Studio capacity using supported Microsoft Power Platform APIs.
+**Public version: v1.0**
 
-## Features
+Static, read-only GitHub Pages SPA for reviewing Microsoft Copilot Studio capacity through supported Microsoft Power Platform APIs.
 
-- Purchased, allocated and consumed tenant capacity.
-- Consolidated **All capacity types** view with transparent breakdown by type.
+## Capabilities
+
+- Purchased, allocated and consumed capacity at tenant level.
+- Indicative remaining and unallocated capacity.
+- Consolidated **All capacity types** view with a transparent per-type breakdown.
 - Current capacity allocation by environment.
 - Power Platform environment inventory.
 - Copilot Studio agent inventory by environment.
-- CSV exports for environments and agents.
-- Multi-page PDF report generated locally in the browser.
-- CoE Toolkit recommendations for Tenant Inventory Explorer and Environment Strategy Quick Assessment.
-- Spanish and English book recommendations.
+- Local CSV exports for environments and agents.
+- Local executive PDF generation.
+- Test mode with fictional data and a downloadable sample report.
+- Spanish and English interface.
 
 Consumption attribution by individual agent is intentionally out of scope.
 
-## Publish with GitHub Pages
+## Quick deployment
 
-Upload every file and folder in this package to the root of the `main` branch. Then configure:
+1. Upload the complete contents of this package to the root of the `main` branch.
+2. In GitHub, open **Settings > Pages**.
+3. Select **Deploy from a branch**.
+4. Select branch **main** and folder **/(root)**.
+5. Save and wait for publication.
+
+No build process, GitHub Action, Node.js installation or source-code folder is required.
+
+See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for Microsoft Entra ID configuration and detailed deployment guidance.
+
+## Test mode
+
+Open the published application and select **Open test mode**, or append the following query string:
 
 ```text
-Settings > Pages
-Source: Deploy from a branch
-Branch: main
-Folder: / (root)
+?test=1
 ```
 
-The repository root must contain `index.html` directly.
+Example:
 
-## Microsoft Entra ID
+```text
+https://your-account.github.io/your-repository/?test=1
+```
 
-Register a single-tenant **Single-page application** and add the exact GitHub Pages URL, including the trailing slash, as a redirect URI.
+Test mode does not authenticate, request tokens or call Microsoft APIs. It loads fictional data and enables the full dashboard and PDF report flow.
 
-Delegated Power Platform API permissions:
+The static sample report is available at:
 
-- `Licensing.Allocations.Read`
-- `EnvironmentManagement.Environments.Read`
-- `ResourceQuery.Resources.Read`
+```text
+assets/reports/Copilot_Studio_Credits_Monitor_Sample_Report_v1.0.pdf
+```
 
 ## Privacy
 
-The application has no backend or database. Report data remains only in browser memory. The optional Remember setting stores only the public Application (Client) ID and Directory (Tenant) ID. PDF and CSV files are generated locally and the application does not retain copies.
+The application has no backend or database. Functional report data remains in browser memory and disappears when the page is reloaded or closed. The optional remember setting stores only the public Application (Client) ID and Directory (Tenant) ID. Generated reports are created locally in the browser and are not uploaded or retained by the application.
 
-## Version
+## Repository structure
 
-0.3.0
+```text
+/
+├── index.html
+├── README.md
+├── LICENSE
+├── .nojekyll
+├── TEST-REPORT.md
+│
+├── assets/
+│   ├── icons/
+│   ├── images/
+│   ├── reports/
+│   ├── *.css
+│   └── *.js
+│
+├── docs/
+│   ├── DEPLOYMENT.md
+│   └── TESTING.md
+│
+└── tests/
+    ├── static-validation.json
+    ├── browser-flow-results.json
+    └── sample-download-results.json
+```
 
 ## Licence
 
-MIT. See [LICENSE](./LICENSE).
+MIT. See [LICENSE](LICENSE).

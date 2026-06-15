@@ -1,0 +1,74 @@
+{
+  "suite": "static-validation",
+  "version": "v1.0",
+  "executedAt": "2026-06-15T22:58:04.307051+00:00",
+  "fileCount": 31,
+  "checks": [
+    {
+      "name": "index.html exists",
+      "status": "passed",
+      "details": ""
+    },
+    {
+      "name": ".nojekyll exists",
+      "status": "passed",
+      "details": ""
+    },
+    {
+      "name": "README, LICENSE and TEST-REPORT exist",
+      "status": "passed",
+      "details": ""
+    },
+    {
+      "name": "Public version metadata is 1.0",
+      "status": "passed",
+      "details": ""
+    },
+    {
+      "name": "Compiled JavaScript is referenced",
+      "status": "passed",
+      "details": ""
+    },
+    {
+      "name": "Compiled CSS is referenced",
+      "status": "passed",
+      "details": ""
+    },
+    {
+      "name": "Required icons exist",
+      "status": "passed",
+      "details": ""
+    },
+    {
+      "name": "Required images exist",
+      "status": "passed",
+      "details": ""
+    },
+    {
+      "name": "Sample report exists",
+      "status": "passed",
+      "details": ""
+    },
+    {
+      "name": "Deployment and testing documentation exists",
+      "status": "passed",
+      "details": ""
+    },
+    {
+      "name": "Required test evidence exists",
+      "status": "passed",
+      "details": ""
+    },
+    {
+      "name": "No source or build-only files are included",
+      "status": "passed",
+      "details": ""
+    },
+    {
+      "name": "All local resources referenced by index.html exist",
+      "status": "passed",
+      "details": ""
+    }
+  ],
+  "passed": true
+}

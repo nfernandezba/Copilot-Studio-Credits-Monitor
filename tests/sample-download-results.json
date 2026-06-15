@@ -1,0 +1,29 @@
+{
+  "suite": "sample-download",
+  "version": "v1.0",
+  "executedAt": "2026-06-15T22:56:22.245312+00:00",
+  "file": "assets/reports/Copilot_Studio_Credits_Monitor_Sample_Report_v1.0.pdf",
+  "checks": [
+    {
+      "name": "File exists",
+      "status": "passed",
+      "details": "512690 bytes"
+    },
+    {
+      "name": "PDF signature is valid",
+      "status": "passed",
+      "details": "%PDF-1.3"
+    },
+    {
+      "name": "File is not empty",
+      "status": "passed",
+      "details": "512690 bytes"
+    },
+    {
+      "name": "SHA-256 calculated",
+      "status": "passed",
+      "details": "2b795f222c83150a8f4800735e046d43fdb07d2878b5ed198c65e12efb41fc7b"
+    }
+  ],
+  "passed": true
+}

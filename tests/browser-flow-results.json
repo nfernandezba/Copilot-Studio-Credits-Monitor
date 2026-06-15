@@ -1,0 +1,64 @@
+{
+  "suite": "browser-flow",
+  "baseUrl": "http://127.0.0.1:8770/",
+  "executedAt": "2026-06-15T22:55:15Z",
+  "browser": "Chromium headless",
+  "checks": [
+    {
+      "name": "Home page returns HTTP 200",
+      "status": "passed",
+      "details": "HTTP 200"
+    },
+    {
+      "name": "Public version v1.0 is visible",
+      "status": "passed",
+      "details": ""
+    },
+    {
+      "name": "Language controls are visible",
+      "status": "passed",
+      "details": ""
+    },
+    {
+      "name": "Test mode is available before sign-in",
+      "status": "passed",
+      "details": ""
+    },
+    {
+      "name": "Test mode updates URL",
+      "status": "passed",
+      "details": "http://127.0.0.1:8770/?test=1"
+    },
+    {
+      "name": "Completed test dashboard is rendered",
+      "status": "passed",
+      "details": ""
+    },
+    {
+      "name": "PDF generation action is visible",
+      "status": "passed",
+      "details": ""
+    },
+    {
+      "name": "Static sample PDF downloads",
+      "status": "passed",
+      "details": "HTTP 200; 512690 bytes"
+    },
+    {
+      "name": "Generated PDF downloads from test dashboard",
+      "status": "passed",
+      "details": "copilot-studio-credits-executive-report-2026-06-15T22-55-20Z.pdf; 512690 bytes"
+    },
+    {
+      "name": "No horizontal overflow at 320px",
+      "status": "passed",
+      "details": "scrollWidth=320; clientWidth=320"
+    },
+    {
+      "name": "No JavaScript console errors",
+      "status": "passed",
+      "details": ""
+    }
+  ],
+  "passed": true
+}
