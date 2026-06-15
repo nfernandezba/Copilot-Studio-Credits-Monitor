@@ -83,7 +83,7 @@ npm run dev
 
 ## Version
 
-Current version: **0.1.2**
+Current version: **0.1.3**
 
 This version removes the unsupported `$top=250` parameter from the environment endpoint and accepts both array and OData `value` response formats.
 
