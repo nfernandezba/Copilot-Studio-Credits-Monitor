@@ -602,13 +602,13 @@ Los datos del modo de prueba deben permanecer claramente identificados como fict
 
 Explora entornos, recursos, configuraciones de gobierno y señales operativas del tenant mediante una SPA modular.
 
-[Abrir Power Platform Tenant Inventory Explorer](https://nfernandezba.github.io/power-platform-tenant-inventory-explorer/)
+[Open Power Platform Tenant Inventory Explorer](https://nfernandezba.github.io/power-platform-tenant-inventory-explorer/)
 
 ### Power Platform & Copilot Studio Environment Strategy - Quick Assessment
 
 Evalúa la definición, cobertura, documentación, comunicación y vigencia de la estrategia de entornos.
 
-[Abrir Environment Strategy Quick Assessment](https://nfernandezba.github.io/Power-Platform-Copilot-Studio-Environment-Assessment/)
+[Open Environment Strategy Quick Assessment](https://nfernandezba.github.io/Power-Platform-Copilot-Studio-Environment-Assessment/)
 
 ## Autor
 
@@ -1111,13 +1111,13 @@ Test-mode data must remain clearly identified as fictional and must not use name
 
 Explore environments, resources, governance settings, and tenant operational signals through a modular SPA.
 
-[Abrir Power Platform Tenant Inventory Explorer](https://nfernandezba.github.io/power-platform-tenant-inventory-explorer/)
+[Open Power Platform Tenant Inventory Explorer](https://nfernandezba.github.io/power-platform-tenant-inventory-explorer/)
 
 ### Power Platform & Copilot Studio Environment Strategy - Quick Assessment
 
 Assess the definition, coverage, documentation, communication, and currency of the environment strategy.
 
-[Abrir Environment Strategy Quick Assessment](https://nfernandezba.github.io/Power-Platform-Copilot-Studio-Environment-Assessment/)
+[Open Environment Strategy Quick Assessment](https://nfernandezba.github.io/Power-Platform-Copilot-Studio-Environment-Assessment/)
 
 ## Author
 
